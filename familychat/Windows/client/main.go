@@ -55,8 +55,8 @@ type RelayMessage struct {
 }
 
 const (
-	SignalURL       = "https://10.147.17.230:8443"
-	RelayUDP        = "10.147.17.230:8444"
+	SignalURL       = "https://"Сюда вам надо написать ip вашего серверного устройства":8443"
+	RelayUDP        = "Аналогичнов данное место нужен тот же ip что и выше":8444"
 	ApiToken        = "family_secret_2024_token_change_me"
 	MaxHoleAttempts = 20
 	HoleInterval    = 200 * time.Millisecond
@@ -908,3 +908,4 @@ func main() {
 
 	mainWindow.ShowAndRun()
 }
+
